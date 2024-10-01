@@ -16,6 +16,7 @@ body {
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
 }
+
 @keyframes gradient {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
@@ -60,9 +61,15 @@ h1 {
   object-fit: cover; 
   opacity: 0; 
   transition: opacity 0.5s; 
+}
 
 #imagenGato.show {
   opacity: 1; 
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s; 
 }
 
 p {
@@ -89,6 +96,7 @@ p {
   h1 {
     font-size: 4vh;
   }
+
   #imagenGato {
     width: 90%;
     height: auto; 
@@ -96,18 +104,18 @@ p {
     opacity: 0;
     transition: opacity 0.5s;
   }
+
   #obtenerGato {
     margin: 0 2% 0 2%;
   }
-  .mt-4{
+
+  .mt-4 {
     padding: 0 5% 0 5%;
   }
 
   .col-md-6.text-center {
-    
     margin: 0; 
     padding: 0; 
     height: auto; 
   }
-}
 }
