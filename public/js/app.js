@@ -11,7 +11,7 @@ document.getElementById('obtenerGato').addEventListener('click', function() {
     axios.get('https://api.thecatapi.com/v1/images/search')
       .then(response => {
         imgElement.src = response.data[0].url;
-        imgElement.classList.remove('d-none'); e
+        imgElement.classList.remove('d-none'); 
 
         
         setTimeout(() => {
