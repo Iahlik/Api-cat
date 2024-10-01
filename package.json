@@ -1,0 +1,14 @@
+{
+  "name": "api-cat",
+  "version": "1.0.0",
+  "description": "Proyecto de práctica, para mostrar gatitos random",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "author": "Ignacio Larraín Villegas",
+  "license": "ISC"
+}
